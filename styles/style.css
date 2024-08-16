@@ -61,6 +61,11 @@ li{
     margin: 20px 0px ;
     text-align: left;
 }
+.btnDiv{
+    display: flex;
+    justify-content: left;
+}
+
 .btnAll{
 font-size: 18px;
 font-weight: 600;
@@ -151,6 +156,7 @@ margin-left: 15px;
 .habitSection{
     margin-top: 300px;
 }
+
 .text_heading_para h1{
     color: white;
     font-family: "Inter", sans-serif;
@@ -344,6 +350,7 @@ margin-left: 15px;
 /* BMIStylesEndsHere */
 
 /* Our Team Styles Start Here */
+
 .our_team h1{
     color: white;
     font-size: 48px;
@@ -396,6 +403,7 @@ background: rgba(255, 255, 255, 0.2);
 .person_name3{
     position: absolute;
 }
+
 /* Our Team Styles End Here */
 
 /* footer section styles here   */
@@ -405,12 +413,14 @@ background: rgba(255, 255, 255, 0.2);
 height: 400px;
     margin-top: 900px;
     background-color: rgb(34, 34, 34);
+    
  }
+
  .fitness h2{
     color: #ff453a;
     font-size: 48px;
     font-weight: 800;
-
+    
  }
  .fitness p{
     font-size: 14px;
@@ -422,6 +432,7 @@ height: 400px;
  }
 
  .footer_section{
+    
     display: flex;
     justify-content: space-between;
  }
@@ -442,7 +453,6 @@ height: 400px;
  }
 
  hr{
-    /* color: #fff; */
     color: rgb(156, 156, 156);
     margin-top: 100px;
  }
@@ -454,13 +464,51 @@ height: 400px;
 /* footer section end here   */
 
 
+/* Extra Activities  Styles Here*/
+.expert_trainers{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.header>h2,p{
+   text-align: center;
+}
+.header>h2{
+font-size: 34px;
+font-weight: 900;
+}
+.header>p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.trainersText{
+    color: #ff453a;
+}
+.trainers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.trainer_card{
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 12px 12px 2px 1px rgba(75, 75, 77, 0.2);
+}
+.expert_trainers>img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
 
-
-
-
-
-
-
+}
+.para_one,
+.para_two{
+    font-size: 14px;
+    font-weight: bold;
+}
 
 
 @media screen and  (max-width: 576px){
@@ -500,32 +548,38 @@ height: 400px;
         left: -3px;
         bottom: 50px;  
     }
-
-
+    .btnAll{
+        font-size: 14px;
+        }
+        .btnDownload{
+            font-size: 14px;
+        }
+        
   
 /* HabitSectionStylesHere */
 
-.habitSection{
-    margin-top: 850px;
-}
 .text_heading_para h1{
-    font-size: 32px;
+    font-size: 28px;
+    font-weight: 800;
 }
 .text_heading_para p{
-    color: rgb(204, 196, 196);
+    margin-top: 5px;
 }
-.text_heading_para{
-    text-align: center;
+.habitSection{
+    margin-top: 820px;
 }
-
 
 .habit_image_container{
-    margin-top: 30px;
+    margin-top: 10px;
     flex-direction: column;
 }
 
 .habit_image_para{
-    margin-top: 40px;
+    margin-top: 30px;
+}
+.habit_image_para>h3{
+    margin-top: 8px;
+    margin-bottom: 7px;
 }
 /* HabitSectionStylesClosedHere */
 
@@ -533,8 +587,9 @@ height: 400px;
 /* run section styles here */
 .run {
     flex-direction: column;
-    margin-top: 1300px;
+    margin-top: 1250px;
     background-color: rgb(34, 34, 34);
+    
    
   }
   
@@ -561,7 +616,7 @@ height: 400px;
 /* BMI Section Styles Here */
 
 .bmi_text{
-    margin-top: 600px;
+    margin-top: 550px;
     text-align: center;
    
 }
@@ -574,7 +629,7 @@ height: 400px;
 
 
 .bmi_container{
-    margin-top: 70px;
+    margin-top: 60px;
     width: 100%;
     height: 720px;
    
@@ -582,7 +637,7 @@ height: 400px;
 
 
 .header_two{
-    font-size: 24px;
+    font-size: 26px;
     margin-top: -280px;
    
    
@@ -590,7 +645,7 @@ height: 400px;
 
 .bmi_box{
     flex-direction: column;
-   
+    width: 100%;
     text-align: center;
   
 }
@@ -606,7 +661,7 @@ height: 400px;
 .calculate_bmi>p{
     font-size: 16px;
     margin-bottom: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -641,8 +696,129 @@ height: 400px;
     margin: 1rem 0;
     gap: 1rem;
 }
+/* footer section styles here   */
+footer> .container{
+   margin-top: 1000px;
+}
+.footer_bg{
+    width: 100%;
+height: 400px;
+    margin-top: 900px;
+    background-color: rgb(34, 34, 34);
+    margin-top: 100px;
+ }
+
+ .fitness h2{
+    color: #ff453a;
+    font-size: 48px;
+    font-weight: 800;
+    
+ }
+ .fitness p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    margin-top: 15px;
+    text-align: left;
+ }
+
+ .footer_section{
+    
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .fitnessStartOne h2{
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+
+ }
+ .fitnessStartOne h3{
+    margin-top: 15px;
+    color: rgb(156, 156, 156);
+    text-align: left;
+    
+ }
+
+ hr{
+    /* color: #fff; */
+    color: rgb(156, 156, 156);
+    margin-top: 100px;
+ }
+ .footerPara{
+    color: rgb(156, 156, 156);
+    margin-top: 40px;
+    
+ }
 /* OurTeamSection'SStylesEndHere */
 
+
+
+
+
+/* footer section styles here   */
+.footer_bg{
+    width: 90%;
+    margin-top: 900px;
+    padding-top: 900px;
+   
+    
+ }
+ .footer_section{
+    
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ hr{
+    color: rgb(156, 156, 156);
+    margin-top: 50px;
+ }
+ .footerPara{
+    color: rgb(156, 156, 156);
+    margin-top: 20px;
+    padding-bottom: 20px;
+ }
+
+
+
+
+ 
+/* Extra Activities  Styles Here*/
+.expert_trainers{
+    margin-top: 820px;
+    width: 90%;
+}
+.header>h2,p{
+   text-align: center;
+}
+.header>h2{
+font-size: 26px;
+font-weight: 750;
+
+}
+.header{
+   padding-top: 30px;
+}
+.header>p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+.trainers{
+    flex-direction: column;
+}
+.trainer_card{
+    margin-top: 25px;
+    border-radius: 8px;
+}
 
 }
 
